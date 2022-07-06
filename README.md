@@ -60,21 +60,15 @@ The first step is to learn the very fundamental concepts in biology, like what i
 Alphafold2 achieves an atomic level of accuracy in the protein structure prediction task. It gives a solution to a problem that has not been answered for 50 years. The model capacity is gigantic, and the design is sophisticated. To understand the paper, I list several tutorials that describe the mechanisms of Alphafold2. I think that many operations in Alphafold2 are no biologically or physically meaningful; instead, they just try to find a method to scale up the model capacity effectively and thus achieve better performance. But it does not mean I don't like Alphafold2. The uses of the structure module and the representation of the atom's 3D coordinate are as brilliant as hard to understand.
 
 - [AlphaFold: a solution to a 50-year-old grand challenge in biology (deepmind.com)](https://www.deepmind.com/blog/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology)
-
 - [Highly accurate protein structure prediction with AlphaFold | Nature](https://www.nature.com/articles/s41586-021-03819-2)
-
 - Video tutorial
-
 - - Chiniese Tutorial: [AlphaFold 2 论文精读【论文精读】*哔哩哔哩*bilibili](https://www.bilibili.com/video/BV1oR4y1K7Xr?spm_id_from=333.337.search-card.all.click)
   - [AlphaFold and the Grand Challenge to solve protein folding - YouTube](https://www.youtube.com/watch?v=nGVFbPKrRWQ)
-
 - Article
-
 - - [AlphaFold 2 is here: what's behind the structure prediction miracle | Oxford Protein Informatics Group (blopig.com)](https://www.blopig.com/blog/2021/07/alphafold-2-is-here-whats-behind-the-structure-prediction-miracle/)
-
+- Survey paper: [Machine learning in protein structure prediction (sciencedirectassets.com)](https://pdf.sciencedirectassets.com/272030/1-s2.0-S1367593121X0004X/1-s2.0-S1367593121000508/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIEWNJH%2FUfYSMaYWskBRKdTh18bQp47Q4oBMnlGHEW5RiAiB3rXuPdqCdeD20InbYQ3yYHsU5NiYaZObTCjAJh4myoCrbBAiw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAQaDDA1OTAwMzU0Njg2NSIMQjl6jFtfsNjYn3bKKq8E2duLtITN23qRjysa3xNAafq6Te%2Blzm2qG6jMye6d9tzTxj4LhKvDsBugaG0FQ5wDSAYo64l85%2BXbGriYSHt23oO%2Fw%2Bck335Sl%2BSKr%2FGkWl0KSDNY%2F72g7jUeLBbUhli7783r9wZqNUEAdiwZ3yjsrCbRKJvNxd4AOEOMYGl5%2Fc24u5cCSvcZdT%2BwGWm2HxG70FR18W9zSvOp6FzLV6HLo8G05YB44tJ8c42BEubSMcAXAVZxhOSZr2hAGCOMNFd8ryINOJEGej3wnPIhUimte3s9oNnZHgjbKGX2liuSXWA4t6s9QeWgwayvKv20dVZL%2BnhvQcDJVvIz2XKKW%2FL7JOHYhrNNkQ5CuK%2FoPxE1jSG8cVkVBD2KLCd7k9h7kOQOKwNMR9%2BCS5mS4OkG2oK6V26hSsAH6%2FUyVAZAbRyuO8hxVQEOXnylIaJErmHm9im4Y9IjKNYiw2NATUlIXzRnGt9hf0tR5%2BOEm0Q%2F6y4AUhYJg4WBdu5oOk2gJJSbhB06nw%2FWmwZHv5QU5JIFn%2BAcDSEg5Q7ozY1eoIHiPnp0AZ8dg1lV6Ae66Pj15w1FX6z%2BMiElXpUW0JmrwBDTe25kKBPDpVyGXcIhDxCT8lAvOfckpEZNdg5PISgKY%2F8it4BgB%2FkTEB6XEV4Ke%2BLYNp8pdABKFl50HZYzpY6n4lDDni0RcqjqOoOEyGQmYSj6bseyTomU5LKPEdTqBSjV9IxtZ5Bk%2FC915UKolzoJlT8%2BnjCripOWBjqqAZLrtfdZVitOsyDXd3pFLFNyhhorrgbTe6td6F0RaaxRq6pCGUn5KrxCc0ZTo%2BxeJ4%2B3jEdcxUgMBg7Xi7di2PwGDoyVk7fglD5voWGxkUlufJLjifkFWf4TxXwEx%2Fd8f%2BtV6efXn4DrOA6aRdv%2FiHqMN3xLYAUaqDqKBAy5AsaBDYDCRd7ow5Bz081RJCqDe5RTRhaor1Px3FwdY0MfHNLqqLxmNyk8Sf67&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220706T004351Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY52ETLVUP%2F20220706%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7da34859bd9818d505424913cb630c083158562accedb4c3ab4a2746291d4bf3&hash=819075f69b419604b96b88b5b2d796bd9f2bafd3ae1861f04f59fb37651e3e11&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1367593121000508&tid=spdf-504717dd-d586-47c2-92fb-abad7d13e5cf&sid=1138a55d69e3214e7d597c09df17d38b1074gxrqa&type=client&ua=51565457510751550306&rr=72644f00ead69842)
 - Code Implementation
-
-- - [lucidrains/alphafold2: To eventually become an unofficial Pytorch implementation / replication of Alphafold2, as details of the architecture get released (github.com)](https://github.com/lucidrains/alphafold2)
+- - [lucidrains/alphafold2: To eventually become an unofficial Pytorch implementation / replication of Alphafold2, as details of the architecture get released (github.com)](https://github.com/lucidrains/alphafold2)  This code is not 100% pure implementation of Alphafold2, where many modifications and improvement are devloped for better performance.
   - [aqlaboratory/openfold: Trainable, memory-efficient, and GPU-friendly PyTorch reproduction of AlphaFold 2 (github.com)](https://github.com/aqlaboratory/openfold)
 
 # Practices
@@ -98,6 +92,3 @@ I also list several beginner-level excises below.
 
 - - [yangkky/Machine-learning-for-proteins: Listing of papers about machine learning for proteins. (github.com)](https://github.com/yangkky/Machine-learning-for-proteins)
 
-# My Advice
-
-join us to work on some interesting biological problems~
