@@ -91,5 +91,5 @@ I also list several beginner-level excises below.
 
 - awesome lists
 
-- - [yangkky/Machine-learning-for-proteins: Listing of papers about machine learning for proteins. (github.com)](https://github.com/yangkky/Machine-learning-for-proteins)
-
+- [yangkky/Machine-learning-for-proteins: Listing of papers about machine learning for proteins. (github.com)](https://github.com/yangkky/Machine-learning-for-proteins)
+- [Bio Lists](https://github.com/biolists)
